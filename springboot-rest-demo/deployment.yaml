@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-rest-demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: springboot-rest-demo
+  template:
+    metadata:
+      labels:
+        app: springboot-rest-demo
+    spec:
+      containers:
+        - name: springboot-rest-demo
+          image: sabarishdocker1991/springboot-rest-demo.jar:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8091

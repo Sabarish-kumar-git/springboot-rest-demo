@@ -1,0 +1,3 @@
+./mvnw clean package
+docker build -t springboot-rest-demo.jar .
+docker run -p 8091:8091 springboot-rest-demo.jar

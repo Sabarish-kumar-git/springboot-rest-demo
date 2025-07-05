@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     /**
+     * TestController class
      * A simple endpoint that returns a greeting message.
      * @return String greeting message
      */

@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 )
 
 /**
+ * Spring Boot REST Demo Application
  * Main application class for the Spring Boot REST demo.
  * This class serves as the entry point for the application.
  */
